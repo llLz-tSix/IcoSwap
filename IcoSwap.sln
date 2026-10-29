@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B05569F-5F4C-49AB-A396-A6B744C2A315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcoSwap.Core", "src\IcoSwap.Core\IcoSwap.Core.csproj", "{6551B321-C0CC-4D6D-A05D-066D016E8889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcoSwap.Cli", "src\IcoSwap.Cli\IcoSwap.Cli.csproj", "{763D9F94-13D2-495A-A14D-6A1251925D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcoSwap.App", "src\IcoSwap.App\IcoSwap.App.csproj", "{508B671E-475D-4CDF-A213-B8091C73D379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{104B2D34-A5B3-4303-B52E-AAC6C9A90187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcoSwap.Core.Tests", "tests\IcoSwap.Core.Tests\IcoSwap.Core.Tests.csproj", "{56C985DA-AA9D-4730-A5DA-5DA412FA49CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6551B321-C0CC-4D6D-A05D-066D016E8889}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{6551B321-C0CC-4D6D-A05D-066D016E8889}.Debug|Any CPU.Build.0 = Debug|x64
+		{6551B321-C0CC-4D6D-A05D-066D016E8889}.Release|Any CPU.ActiveCfg = Release|x64
+		{6551B321-C0CC-4D6D-A05D-066D016E8889}.Release|Any CPU.Build.0 = Release|x64
+		{763D9F94-13D2-495A-A14D-6A1251925D6C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{763D9F94-13D2-495A-A14D-6A1251925D6C}.Debug|Any CPU.Build.0 = Debug|x64
+		{763D9F94-13D2-495A-A14D-6A1251925D6C}.Release|Any CPU.ActiveCfg = Release|x64
+		{763D9F94-13D2-495A-A14D-6A1251925D6C}.Release|Any CPU.Build.0 = Release|x64
+		{508B671E-475D-4CDF-A213-B8091C73D379}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{508B671E-475D-4CDF-A213-B8091C73D379}.Debug|Any CPU.Build.0 = Debug|x64
+		{508B671E-475D-4CDF-A213-B8091C73D379}.Release|Any CPU.ActiveCfg = Release|x64
+		{508B671E-475D-4CDF-A213-B8091C73D379}.Release|Any CPU.Build.0 = Release|x64
+		{56C985DA-AA9D-4730-A5DA-5DA412FA49CE}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{56C985DA-AA9D-4730-A5DA-5DA412FA49CE}.Debug|Any CPU.Build.0 = Debug|x64
+		{56C985DA-AA9D-4730-A5DA-5DA412FA49CE}.Release|Any CPU.ActiveCfg = Release|x64
+		{56C985DA-AA9D-4730-A5DA-5DA412FA49CE}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6551B321-C0CC-4D6D-A05D-066D016E8889} = {8B05569F-5F4C-49AB-A396-A6B744C2A315}
+		{763D9F94-13D2-495A-A14D-6A1251925D6C} = {8B05569F-5F4C-49AB-A396-A6B744C2A315}
+		{508B671E-475D-4CDF-A213-B8091C73D379} = {8B05569F-5F4C-49AB-A396-A6B744C2A315}
+		{56C985DA-AA9D-4730-A5DA-5DA412FA49CE} = {104B2D34-A5B3-4303-B52E-AAC6C9A90187}
+	EndGlobalSection
+EndGlobal

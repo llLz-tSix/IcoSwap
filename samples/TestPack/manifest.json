@@ -1,0 +1,9 @@
+﻿{
+  "name": "IcoSwap Test Pack",
+  "author": "IcoSwap",
+  "map": {
+    "user.png": "system:userfiles",
+    "control-panel.png": "system:controlpanel"
+  },
+  "ignore": []
+}
